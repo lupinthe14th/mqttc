@@ -1,7 +1,7 @@
 ---
 services:
   broker:
-    image: rabbitmq:3.9-management
+    image: rabbitmq:3.11-management
     ports:
       - 1883:1883
     volumes:
